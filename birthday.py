@@ -1,7 +1,7 @@
 """
 birthday.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Jackson Lake
+Credit: HHS page
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -31,3 +31,4 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+q1 = input("What is your name? ")
