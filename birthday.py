@@ -41,6 +41,7 @@ q1 = input("What is your name?")
 q2 = input("What month were you born in?")
 q3 = input("What year were you born in?")
 q4 = input("What day were you born on?")
+name = str(q1)
 
 q1 = q1.lower()
 q2 = q2.lower()
@@ -49,5 +50,18 @@ q4 = q4.lower()
 
 if q2 == "october" and q4 == "31":
     print("You were born on Halloween!")
-elif q2 == "todaymonth" and q4 == "todaydate":
+
+elif q2 == month.lower() and int(q4) == todaydate:
     print("Happy birthday!")
+
+elif q2 == "june" or q2 == "july" or q2 == "august":
+    print("{0}, you are a summer baby".format(name)) 
+
+elif q2 == "december" or q2 == "january" or q2 == "february":
+    print("{0}, you are a winter baby".format(name)) 
+
+elif q2 == "march" or q2 == "april" or q2 == "may":
+    print("{0}, you are a spring baby".format(name)) 
+
+elif q2 == "september" or q2 == "october" or q2 == "november":
+    print("{0}, you are a fall baby".format(name)) 
