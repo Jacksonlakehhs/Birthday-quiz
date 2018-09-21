@@ -55,7 +55,10 @@ elif q2 == month.lower() and int(q4) == todaydate:
     print("Happy birthday!")
 
 elif q2 == "june" or q2 == "july" or q2 == "august":
-    print("{0}, you are a summer baby".format(name)) 
+    if int(q3) <= 1980:
+        old = str(stone age)
+    
+    print("{0}, you are a summer baby of the {1}".format(name, old)) 
 
 elif q2 == "december" or q2 == "january" or q2 == "february":
     print("{0}, you are a winter baby".format(name)) 
