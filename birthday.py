@@ -49,5 +49,5 @@ q4 = q4.lower()
 
 if q2 == "october" and q4 == "31":
     print("You were born on Halloween!")
-elif q2 == todaymonth and q4 == todaydate:
+elif q2 == "todaymonth" and q4 == "todaydate":
     print("Happy birthday!")
