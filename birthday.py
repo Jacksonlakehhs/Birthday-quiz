@@ -59,6 +59,7 @@ elif q2 == "june" or q2 == "july" or q2 == "august":
         old = "stone age"
     if int(q3) >= 1980 and int(q3) <= 1990:
         old = "eighties"
+    if int(q3) >= 1990 and int(q3) <= 2000
     print("{0}, you are a summer baby of the {1}".format(name, old)) 
 
 elif q2 == "december" or q2 == "january" or q2 == "february":
