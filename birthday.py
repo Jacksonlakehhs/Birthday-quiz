@@ -46,7 +46,7 @@ q4 = int(input("And the day? "))
 q1 = q1.lower()
 q2 = q2.lower()
 
-if q2 == "october" and q4 == "31":
+if q2 == "october" and q4 == 31:
     print("You were born on Halloween!")
 
 elif q2 == month.lower() and int(q4) == todaydate:
