@@ -37,10 +37,10 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 month = month_name[todaymonth]
 
-q1 = input("What is your name?")
-q2 = input("What month were you born in?")
-q3 = input("What year were you born in?")
-q4 = input("What day were you born on?")
+q1 = input("What is your name? ")
+q2 = input("What month were you born in? ")
+q3 = input("What year were you born in? ")
+q4 = input("What day were you born on? ")
 name = str(q1)
 
 q1 = q1.lower()
