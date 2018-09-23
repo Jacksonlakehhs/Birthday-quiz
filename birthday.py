@@ -56,7 +56,7 @@ elif q2 == month.lower() and int(q4) == todaydate:
 
 elif q2 == "june" or q2 == "july" or q2 == "august":
     if int(q3) <= 1980:
-        old = "stone age"
+        old = "Stone Age"
     if int(q3) >= 1980 and int(q3) <= 1990:
         old = "eighties"
     if int(q3) >= 1990 and int(q3) <= 2000:
@@ -67,7 +67,7 @@ elif q2 == "june" or q2 == "july" or q2 == "august":
 
 elif q2 == "december" or q2 == "january" or q2 == "february":
     if int(q3) <= 1980:
-        old = "stone age"
+        old = "Stone Age"
     if int(q3) >= 1980 and int(q3) <= 1990:
         old = "eighties"
     if int(q3) >= 1990 and int(q3) <= 2000:
@@ -78,7 +78,7 @@ elif q2 == "december" or q2 == "january" or q2 == "february":
 
 elif q2 == "march" or q2 == "april" or q2 == "may":
     if int(q3) <= 1980:
-        old = "stone age"
+        old = "Stone Age"
     if int(q3) >= 1980 and int(q3) <= 1990:
         old = "eighties"
     if int(q3) >= 1990 and int(q3) <= 2000:
@@ -89,7 +89,7 @@ elif q2 == "march" or q2 == "april" or q2 == "may":
 
 elif q2 == "september" or q2 == "october" or q2 == "november":
     if int(q3) <= 1980:
-        old = "stone age"
+        old = "Stone Age"
     if int(q3) >= 1980 and int(q3) <= 1990:
         old = "eighties"
     if int(q3) >= 1990 and int(q3) <= 2000:
