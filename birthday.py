@@ -59,14 +59,41 @@ elif q2 == "june" or q2 == "july" or q2 == "august":
         old = "stone age"
     if int(q3) >= 1980 and int(q3) <= 1990:
         old = "eighties"
-    if int(q3) >= 1990 and int(q3) <= 2000
+    if int(q3) >= 1990 and int(q3) <= 2000:
+        old = "nineties"
+    if int(q3) >= 2000 and int(q3) <= 2018:
+        old = "modern era"
     print("{0}, you are a summer baby of the {1}".format(name, old)) 
 
 elif q2 == "december" or q2 == "january" or q2 == "february":
-    print("{0}, you are a winter baby".format(name)) 
+    if int(q3) <= 1980:
+        old = "stone age"
+    if int(q3) >= 1980 and int(q3) <= 1990:
+        old = "eighties"
+    if int(q3) >= 1990 and int(q3) <= 2000:
+        old = "nineties"
+    if int(q3) >= 2000 and int(q3) <= 2018:
+        old = "modern era"
+    print("{0}, you are a winter baby of the {1}".format(name, old)) 
 
 elif q2 == "march" or q2 == "april" or q2 == "may":
-    print("{0}, you are a spring baby".format(name)) 
+    if int(q3) <= 1980:
+        old = "stone age"
+    if int(q3) >= 1980 and int(q3) <= 1990:
+        old = "eighties"
+    if int(q3) >= 1990 and int(q3) <= 2000:
+        old = "nineties"
+    if int(q3) >= 2000 and int(q3) <= 2018:
+        old = "modern era"
+    print("{0}, you are a spring baby of the {1}".format(name, old)) 
 
 elif q2 == "september" or q2 == "october" or q2 == "november":
-    print("{0}, you are a fall baby".format(name)) 
+    if int(q3) <= 1980:
+        old = "stone age"
+    if int(q3) >= 1980 and int(q3) <= 1990:
+        old = "eighties"
+    if int(q3) >= 1990 and int(q3) <= 2000:
+        old = "nineties"
+    if int(q3) >= 2000 and int(q3) <= 2018:
+        old = "modern era"
+    print("{0}, you are a fall baby of the {1}".format(name, old)) 
