@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Jackson Lake
-Credit: HHS page
+Credit: HHS page, talking with desk partner
 Assignment:
 
 Your program will ask the user the following questions, in this order:
